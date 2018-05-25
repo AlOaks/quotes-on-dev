@@ -5,7 +5,7 @@
  * @package QOD_Starter_Theme
  */
 
-get_header(); ?>
+ ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -34,7 +34,7 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 		<?php endif; ?>
-
+			<?php get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
