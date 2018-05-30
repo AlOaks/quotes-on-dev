@@ -25,9 +25,9 @@
 					<label>Quote</label>
 					<input class="quote-textarea" type="text" name="quote-text">
 					<label>Where did you fin this quote? (e.g. book name)</label>
-					<input type="text" name="quote-source">
+					<input type="text" name="quote_source">
 					<label>Provide the URL of the quote source, if available.</label>
-					<input type="text" name="quote-link">
+					<input type="text" name="quote_link">
 					<input class="submit-btn" type="submit" value="Submit Quote">
 				</form>
 				<?php }; ?>

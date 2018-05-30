@@ -6,7 +6,7 @@
  *
  * @package QOD_Starter_Theme
  */
-$args = array( 'post_type' => 'post', 'order' => 'ASC', 'posts_per_page' => -1  );
+$args = array( 'post_type' => 'post', 'orderby' => 'title', 'order' => 'ASC', 'posts_per_page' => -1  );
 $quotes = new WP_Query( $args ); // instantiate our object
 
 ?>

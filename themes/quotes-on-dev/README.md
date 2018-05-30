@@ -1,30 +1,31 @@
-# Quotes on Dev Starter
+Project 5 (Quotes on Dev)
 
-A WordPress starter theme for the Quotes on Dev project, forked from Underscores.
+##Description
 
-## Installation
+Using WP API for fetching and displaying quotes as well as submitting new ones.
 
-### 
-1. Download me (don't clone me!)
+##Technologies used:
 
-Then add me to your `wp-content/themes` directory.
+Gulp
+jQuery
+SASS 
+PHP 
+HTML 
+Wordpress 
+AJAX
+json 
 
-### 
+##Learnings:
 
-2. Rename the `quotesondev-starter-master` directory
+With this project, I was able to understando how to use Ajax Methods, WP API calls, and json files readings. 
+As well, I could see how a Nonce works as a security measure on the website. 
 
-Make sure that the theme directory name is project appropriate! Do you need `starter` or `master` in the directory name?
+Albert J Robles
 
-### 
+##Contact Information
 
-3. Install the dev dependencies
+E-mail: jalberto.robles@outlook.com
 
-Next you'll need to run `npm install` **inside your theme directory** to install the npm packages you'll need for Gulp, etc.
+##License
 
-### 
-
-4. Update the proxy in `gulpfile.js`
-
-Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Browsersync proxy (so change `localhost[:port-here]/[your-dir-name-here]` to the appropriate localhost URL).
-
-And now would be a good time to `git init` :)
+This is my fifth project on RED Academy, not much to see here. Creative Commons License. 2018

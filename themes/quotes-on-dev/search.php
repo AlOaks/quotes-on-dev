@@ -33,7 +33,7 @@ get_header(); ?>
 
 		<?php endif; ?>
 </div>
-			<i class="fas fa-quote-left"></i>
+			<i class="fas fa-quote-right"></i>
 		</main><!-- #main -->
 	</section><!-- #primary -->
 
