@@ -1,0 +1,74 @@
+.page-template-page-submit {
+
+    .main-wrapper {
+
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+
+        .submit-content {
+            flex-basis: 80%;
+        }
+
+        a {
+            color: $green;
+
+            &:hover {
+                color: darken($green, 10%);
+            }
+        }
+    }
+
+    .submit-page-title {
+        margin-left: -6%;
+        margin-right: auto;
+        text-align: left;
+
+        @include desktop {
+            margin-left: auto;
+        }
+
+    }
+
+    .submit-quote {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: -6%;
+        margin-right: auto;
+
+        @include desktop {
+            margin-left: auto;
+        }
+
+        label {
+            font-family: "Exo";
+            margin-bottom: 20px;
+        }
+
+        .quote-textarea {
+            height: 10rem;
+            width: 90%;
+        }
+
+        input {
+            background: transparent;
+            border: 1px solid $green;
+            border-radius: 3px;
+            margin-bottom: 20px;
+            width: 60%;
+
+        }
+
+        .submit-btn {
+            box-shadow: none;
+            color: $green;
+            font-family: "Exo";
+            text-shadow: none;
+            width: 150px;
+            
+        }
+    }
+}

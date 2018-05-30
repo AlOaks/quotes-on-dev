@@ -1,0 +1,109 @@
+body {
+    background: $background-main;
+    color: white;
+    font-family: "Exo";
+
+    @include desktop {
+        font-size: 1.6rem;
+    }
+}
+
+.site-main {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+i {
+    visibility: hidden;
+
+    @include desktop {
+        font-size: 6rem;
+        color: $green;
+        visibility: visible;
+        flex-basis: 15%;
+        width: 100%;
+        padding: 20px;
+        margin-left: auto; 
+        margin-right: auto;
+    }
+}
+
+a:visited {
+    color: $green;
+}
+
+a {
+    text-decoration: none;
+    color: $green;
+    
+    &:hover {
+        color: darken($green, 10%);
+    }
+}
+
+button {
+    width: 250px;
+    margin-top: 50px;
+    background: transparent;
+    box-shadow: none;
+    font-size: 20px;
+    text-align: center;
+    align-self: flex-start;
+    padding: 10px 25px;
+    border: 1px solid $green;
+    color: $green;
+    text-shadow: none;
+    text-transform: capitalize;
+    font-family: "Exo";
+
+    &:hover {
+        box-shadow: none;
+        border-color: darken($green, 10%);
+        color: darken($green, 10%);
+    }
+
+    @include desktop {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.menu {
+    justify-content: space-between;
+    display: flex;
+    width: 350px;
+    margin-left: -25px;
+    flex-direction: row;
+    margin-top: 50px;
+
+    @include desktop {
+        margin-left: 70%;
+    }
+
+    :nth-child(2) {
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        padding: 0 20px;
+    }
+
+    .menu-item {
+        list-style-type: none;
+        font-size: 1rem;
+
+        a {
+            color: $green;
+            list-style-type: none;
+
+            &:visited {
+                color: $green;
+            }
+
+            &:hover {
+                color: darken($green, 10%);
+            }
+        }
+    }
+}

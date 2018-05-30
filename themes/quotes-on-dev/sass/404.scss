@@ -1,0 +1,35 @@
+.error404 {
+
+    .error-404 {
+        @include desktop {
+            display: flex;
+        }
+    }
+
+    fieldset {
+        border: none;
+        margin-top: -75px;
+        margin-left: -10px;
+    }
+
+    .search-field {
+        background: transparent;
+        color: grey;
+        font-family: "Exo";
+        border: 2px solid $green;
+        border-radius: 3px;
+        width: 250px;
+    }
+
+    button {
+        width: 50px;
+        border: none;
+
+        #search-icon {
+            text-align: center;
+            visibility: visible;
+            font-size: 1rem;
+            margin-left: -25px;
+        }
+    }
+}

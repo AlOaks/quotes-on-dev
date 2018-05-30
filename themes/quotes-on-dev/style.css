@@ -221,6 +221,34 @@ th {
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'Exo';
+  src: url("../../fonts/Exo-LightItalic.eot");
+  src: url("../../fonts/Exo-LightItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Exo-LightItalic.woff2") format("woff2"), url("../../fonts/Exo-LightItalic.woff") format("woff"), url("../../fonts/Exo-LightItalic.ttf") format("truetype"), url("../../fonts/Exo-LightItalic.svg#Exo-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Exo';
+  src: url("../../fonts/Exo-Medium.eot");
+  src: url("../../fonts/Exo-Medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/Exo-Medium.woff2") format("woff2"), url("../../fonts/Exo-Medium.woff") format("woff"), url("../../fonts/Exo-Medium.ttf") format("truetype"), url("../../fonts/Exo-Medium.svg#Exo-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Exo';
+  src: url("../../fonts/Exo-MediumItalic.eot");
+  src: url("../../fonts/Exo-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Exo-MediumItalic.woff2") format("woff2"), url("../../fonts/Exo-MediumItalic.woff") format("woff"), url("../../fonts/Exo-MediumItalic.ttf") format("truetype"), url("../../fonts/Exo-MediumItalic.svg#Exo-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Exo';
+  src: url("../../fonts/Exo-Light.eot");
+  src: url("../../fonts/Exo-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/Exo-Light.woff2") format("woff2"), url("../../fonts/Exo-Light.woff") format("woff"), url("../../fonts/Exo-Light.ttf") format("truetype"), url("../../fonts/Exo-Light.svg#Exo-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -589,3 +617,419 @@ object {
 --------------------------------------------------------------*/
 /* All Archives Page */
 /* Submit a Quote Page */
+.home-title {
+  font-weight: 600;
+  font-size: 2.3rem;
+  letter-spacing: 0;
+  font-family: "Exo";
+  color: white;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 3%; }
+  .home-title span {
+    font-weight: lighter;
+    color: #00cc00;
+    font-style: italic; }
+  @media (min-width: 620px) {
+    .home-title {
+      font-size: 3rem; } }
+  @media (min-width: 1080px) {
+    .home-title {
+      font-size: 6rem;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center; } }
+
+@media (min-width: 620px) {
+  .quote-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; } }
+
+.quote-container .source {
+  font-style: italic; }
+
+.quote-container p {
+  width: 100%;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -ms-flex-item-align: start;
+      align-self: flex-start; }
+  @media (min-width: 620px) {
+    .quote-container p {
+      font-size: 1.5rem; } }
+  @media (min-width: 1080px) {
+    .quote-container p {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; } }
+
+@media (min-width: 620px) {
+  .page-template-about {
+    font-size: 1rem; }
+    .page-template-about .home-title {
+      margin-left: 28px; }
+    .page-template-about .content-div {
+      margin-left: -28px; } }
+
+@media (min-width: 1080px) {
+  .page-template-about .content-div {
+    margin-left: 0; } }
+
+@media (min-width: 1080px) {
+  .page-template-about .content-div p {
+    -ms-flex-preferred-size: 70%;
+        flex-basis: 70%;
+    font-size: 1.1rem;
+    font-weight: lighter; } }
+
+.page-template-about .content-div p a {
+  color: #00cc00; }
+  .page-template-about .content-div p a:hover {
+    color: #009900; }
+
+.page-template-about .site-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto; }
+
+body {
+  background: #222222;
+  color: white;
+  font-family: "Exo"; }
+  @media (min-width: 1080px) {
+    body {
+      font-size: 1.6rem; } }
+
+.site-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto; }
+
+i {
+  visibility: hidden; }
+  @media (min-width: 1080px) {
+    i {
+      font-size: 6rem;
+      color: #00cc00;
+      visibility: visible;
+      -ms-flex-preferred-size: 15%;
+          flex-basis: 15%;
+      width: 100%;
+      padding: 20px;
+      margin-left: auto;
+      margin-right: auto; } }
+
+a:visited {
+  color: #00cc00; }
+
+a {
+  text-decoration: none;
+  color: #00cc00; }
+  a:hover {
+    color: #009900; }
+
+button {
+  width: 250px;
+  margin-top: 50px;
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 20px;
+  text-align: center;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  padding: 10px 25px;
+  border: 1px solid #00cc00;
+  color: #00cc00;
+  text-shadow: none;
+  text-transform: capitalize;
+  font-family: "Exo"; }
+  button:hover {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-color: #009900;
+    color: #009900; }
+  @media (min-width: 1080px) {
+    button {
+      margin-left: auto;
+      margin-right: auto; } }
+
+.menu {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 350px;
+  margin-left: -25px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 50px; }
+  @media (min-width: 1080px) {
+    .menu {
+      margin-left: 70%; } }
+  .menu :nth-child(2) {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 0 20px; }
+  .menu .menu-item {
+    list-style-type: none;
+    font-size: 1rem; }
+    .menu .menu-item a {
+      color: #00cc00;
+      list-style-type: none; }
+      .menu .menu-item a:visited {
+        color: #00cc00; }
+      .menu .menu-item a:hover {
+        color: #009900; }
+
+.page-template-page-submit .main-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto; }
+  .page-template-page-submit .main-wrapper .submit-content {
+    -ms-flex-preferred-size: 80%;
+        flex-basis: 80%; }
+  .page-template-page-submit .main-wrapper a {
+    color: #00cc00; }
+    .page-template-page-submit .main-wrapper a:hover {
+      color: #009900; }
+
+.page-template-page-submit .submit-page-title {
+  margin-left: -6%;
+  margin-right: auto;
+  text-align: left; }
+  @media (min-width: 1080px) {
+    .page-template-page-submit .submit-page-title {
+      margin-left: auto; } }
+
+.page-template-page-submit .submit-quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin-left: -6%;
+  margin-right: auto; }
+  @media (min-width: 1080px) {
+    .page-template-page-submit .submit-quote {
+      margin-left: auto; } }
+  .page-template-page-submit .submit-quote label {
+    font-family: "Exo";
+    margin-bottom: 20px; }
+  .page-template-page-submit .submit-quote .quote-textarea {
+    height: 10rem;
+    width: 90%; }
+  .page-template-page-submit .submit-quote input {
+    background: transparent;
+    border: 1px solid #00cc00;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    width: 60%; }
+  .page-template-page-submit .submit-quote .submit-btn {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    color: #00cc00;
+    font-family: "Exo";
+    text-shadow: none;
+    width: 150px; }
+
+.page-template-page-archives, .archive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (min-width: 620px) {
+    .page-template-page-archives, .archive {
+      font-size: 1.3rem; } }
+  @media (min-width: 1080px) {
+    .page-template-page-archives, .archive {
+      font-size: 1.6rem; }
+      .page-template-page-archives .site-main, .archive .site-main {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto; }
+      .page-template-page-archives .main-wrapper, .archive .main-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; } }
+  .page-template-page-archives .titles, .archive .titles {
+    font-size: 1.1rem; }
+  .page-template-page-archives .page-title-archives, .archive .page-title-archives {
+    font-size: 1.4rem; }
+  .page-template-page-archives .quote-authors-container, .page-template-page-archives .quote-cat-container, .page-template-page-archives .quote-tag-container, .archive .quote-authors-container, .archive .quote-cat-container, .archive .quote-tag-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-left: -40px; }
+    .page-template-page-archives .quote-authors-container li, .page-template-page-archives .quote-cat-container li, .page-template-page-archives .quote-tag-container li, .archive .quote-authors-container li, .archive .quote-cat-container li, .archive .quote-tag-container li {
+      list-style-type: none;
+      font-family: "Exo";
+      font-size: 16px;
+      margin-right: 25px; }
+      .page-template-page-archives .quote-authors-container li a, .page-template-page-archives .quote-cat-container li a, .page-template-page-archives .quote-tag-container li a, .archive .quote-authors-container li a, .archive .quote-cat-container li a, .archive .quote-tag-container li a {
+        color: #00cc00; }
+        .page-template-page-archives .quote-authors-container li a:hover, .page-template-page-archives .quote-cat-container li a:hover, .page-template-page-archives .quote-tag-container li a:hover, .archive .quote-authors-container li a:hover, .archive .quote-cat-container li a:hover, .archive .quote-tag-container li a:hover {
+          color: #009900; }
+  .page-template-page-archives .archive-main, .archive .archive-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .page-template-page-archives .archive-page-title, .archive .archive-page-title {
+    border-bottom: 1px dashed white;
+    padding-bottom: 35px;
+    font-size: 2rem; }
+  .page-template-page-archives .archive-quote-container, .archive .archive-quote-container {
+    margin-top: auto;
+    margin-bottom: auto;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    width: 100%;
+    border-bottom: 1px dashed white; }
+    .page-template-page-archives .archive-quote-container p, .archive .archive-quote-container p {
+      font-size: 1.2rem;
+      font-weight: lighter; }
+
+@media (min-width: 1080px) {
+  .search-results {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto; } }
+
+.search-results .number-pagination {
+  font-size: 1rem; }
+
+.search-results .site-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  @media (min-width: 1080px) {
+    .search-results .site-main {
+      margin-left: 120px;
+      margin-right: auto; }
+      .search-results .site-main .home-title {
+        margin-left: auto;
+        margin-right: auto; } }
+
+@media (min-width: 1080px) {
+  .search-results .search-author {
+    font-size: 1.5rem; } }
+
+@media (min-width: 1080px) {
+  .search-results p {
+    font-size: 1rem; } }
+
+.search-results .page-title {
+  border-bottom: 1px dashed white;
+  padding-bottom: 25px;
+  font-size: 2rem; }
+
+@media (min-width: 1080px) {
+  .search-results {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .search-results .search-results-container {
+      -ms-flex-preferred-size: 70%;
+          flex-basis: 70%; } }
+
+@media (min-width: 1080px) {
+  .error404 .error-404 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
+
+.error404 fieldset {
+  border: none;
+  margin-top: -75px;
+  margin-left: -10px; }
+
+.error404 .search-field {
+  background: transparent;
+  color: grey;
+  font-family: "Exo";
+  border: 2px solid #00cc00;
+  border-radius: 3px;
+  width: 250px; }
+
+.error404 button {
+  width: 50px;
+  border: none; }
+  .error404 button #search-icon {
+    text-align: center;
+    visibility: visible;
+    font-size: 1rem;
+    margin-left: -25px; }

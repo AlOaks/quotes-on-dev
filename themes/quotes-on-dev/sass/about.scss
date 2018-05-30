@@ -1,0 +1,50 @@
+.page-template-about {
+
+    @include tablet {
+        font-size: 1rem;
+
+        .home-title {
+            margin-left: 28px;
+        }
+        
+        .content-div {
+            margin-left: -28px;
+        }
+    }
+
+    @include desktop {
+        
+        .content-div {
+            margin-left: 0;
+        }
+    }
+
+    .content-div {
+        p {
+
+            @include desktop {
+
+                flex-basis: 70%;
+                font-size: 1.1rem;
+                font-weight: lighter;
+
+            }
+
+            a {
+                color: $green;
+
+                &:hover {
+                    color: darken($green, 10%);
+                }
+            }
+        }
+    }
+
+    .site-main {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

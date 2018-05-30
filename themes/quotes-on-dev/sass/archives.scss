@@ -1,0 +1,87 @@
+.page-template-page-archives, .archive {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+    @include tablet{
+        font-size: 1.3rem;
+    }
+
+    @include desktop {
+        font-size: 1.6rem;
+
+
+        .site-main {
+            display: flex;
+            flex-direction: row;
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .main-wrapper {
+            display: flex; 
+            flex-direction: column;
+
+        }
+    }
+
+    .titles {
+        font-size: 1.1rem;
+    }
+
+    .page-title-archives {
+        font-size: 1.4rem;
+    }
+
+    .quote-authors-container, .quote-cat-container, .quote-tag-container {
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: flex-start;
+        margin-left: -40px;
+        
+        li {
+            list-style-type: none;
+            font-family: "Exo";
+            font-size: 16px;
+            margin-right: 25px;
+
+            a {
+                color: $green;
+
+                &:hover {
+                    color: darken($green, 10%);
+                }
+            }
+        }
+    }
+    .archive-main {
+        display: flex;
+    }
+
+    .archive-page-title {
+        border-bottom: 1px dashed white;
+        padding-bottom: 35px;
+        font-size: 2rem;
+    }
+
+    .archive-quote-container {
+        margin-top: auto;
+        margin-bottom: auto;
+        flex-basis: 100%;
+        width: 100%;
+        border-bottom: 1px dashed white;
+
+        p {
+            font-size: 1.2rem;
+            font-weight: lighter;
+        }
+    }
+}

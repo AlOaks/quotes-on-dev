@@ -11,6 +11,9 @@
 
 			<footer id="colophon" class="site-footer" role="contentinfo">
 				<div class="site-info">
+				<nav id="site-navigation" class="main-navigations" role="navigation">
+					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+				</nav><!-- #site-navigation -->
 				</div><!-- .site-info -->
 			</footer><!-- #colophon -->
 		</div><!-- #page -->

@@ -1,0 +1,27 @@
+.home-title {
+    font-weight: 600;
+    font-size: 2.3rem;
+    letter-spacing: 0;
+    font-family: "Exo";
+    color: white;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 3%;
+
+    span {
+        font-weight: lighter;
+        color: $green;
+        font-style: italic;
+    }
+
+    @include tablet {
+        font-size: 3rem;
+    }
+
+    @include desktop {
+        font-size: 6rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}

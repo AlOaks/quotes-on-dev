@@ -1,0 +1,36 @@
+.quote-container {
+
+    @include tablet {
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-around;
+    } 
+    
+    .source {
+        font-style: italic;
+    }
+
+    p {
+        width: 100%;
+        flex-basis: 100%;
+        align-self: flex-start;
+
+        @include tablet {
+            font-size: 1.5rem;
+        }
+
+        @include desktop {
+            flex-basis: 50%;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        
+    }
+
+    
+}
