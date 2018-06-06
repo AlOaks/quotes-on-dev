@@ -20,7 +20,7 @@ i {
     visibility: hidden;
 
     @include desktop {
-        font-size: 6rem;
+        font-size: 8rem;
         color: $green;
         visibility: visible;
         flex-basis: 15%;

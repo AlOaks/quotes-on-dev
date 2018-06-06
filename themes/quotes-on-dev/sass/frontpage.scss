@@ -8,9 +8,25 @@
         margin-right: auto;
         justify-content: space-around;
     } 
+
+    @include desktop {
+        width: 1080px;
+    }
+
     
     .source {
         font-style: italic;
+
+        @include desktop {
+            font-size: 1.5rem;
+        }
+    }
+
+    .quote-author {
+
+        @include desktop {
+            font-size: 1.5rem;
+        }
     }
 
     p {
@@ -25,6 +41,7 @@
         @include desktop {
             flex-basis: 50%;
             width: 100%;
+            font-size: 2.5rem;
             margin-left: auto;
             margin-right: auto;
 

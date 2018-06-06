@@ -655,8 +655,19 @@ object {
     -ms-flex-pack: distribute;
         justify-content: space-around; } }
 
+@media (min-width: 1080px) {
+  .quote-container {
+    width: 1080px; } }
+
 .quote-container .source {
   font-style: italic; }
+  @media (min-width: 1080px) {
+    .quote-container .source {
+      font-size: 1.5rem; } }
+
+@media (min-width: 1080px) {
+  .quote-container .quote-author {
+    font-size: 1.5rem; } }
 
 .quote-container p {
   width: 100%;
@@ -672,6 +683,7 @@ object {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%;
       width: 100%;
+      font-size: 2.5rem;
       margin-left: auto;
       margin-right: auto; } }
 
@@ -735,7 +747,7 @@ i {
   visibility: hidden; }
   @media (min-width: 1080px) {
     i {
-      font-size: 6rem;
+      font-size: 8rem;
       color: #00cc00;
       visibility: visible;
       -ms-flex-preferred-size: 15%;

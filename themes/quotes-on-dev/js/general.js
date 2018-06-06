@@ -17,7 +17,7 @@ jQuery( document ).ready(function($) {
                 console.log(response);
                 var url = response[0].link;
                 console.log(url);
-                document.location.href = url;
+                history.pushState(null, response[0].title.rendered, response[0].slug);
           });
     })
 
